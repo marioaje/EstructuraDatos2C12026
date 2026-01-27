@@ -39,3 +39,27 @@
 
 # debug information files
 *.dwo
+*.db-wal
+Project1/.vs/Project1/CopilotIndices/18.3.442.31881/SemanticSymbols.db-shm
+Project1/.vs/Project1/CopilotIndices/18.3.442.31881/SemanticSymbols.db
+Project1/.vs/Project1/CopilotIndices/18.3.442.31881/CodeChunks.db-shm
+Project1/.vs/Project1/CopilotIndices/18.3.442.31881/CodeChunks.db
+Project1/.vs/Project1.slnx/v18/Insiders/ipch/AutoPCH/30faa72c4f7ce7d4/ESTRUCTURA.ipch
+Project1/.vs/Project1.slnx/v18/Insiders/Browse.VC.opendb
+Project1/.vs/Project1.slnx/v18/Insiders/Browse.VC.db-shm
+Project1/.vs/Project1.slnx/v18/Insiders/Browse.VC.db
+Project1/.vs/Project1.slnx/v18/DocumentLayout.json
+Project1/.vs/Project1.slnx/v18/DocumentLayout.backup.json
+Project1/.vs/Project1.slnx/v18/.suo
+Project1/.vs/Project1.slnx/FileContentIndex/4823cd71-57ac-446d-842e-0b5f5f1ce6f0.vsidx
+Project1/Project1/x64/Debug/Project1.log
+Project1/Project1/x64/Debug/Project1.tlog/CL.command.1.tlog
+Project1/Project1/x64/Debug/Project1.tlog/Cl.items.tlog
+Project1/Project1/x64/Debug/Project1.tlog/CL.read.1.tlog
+Project1/Project1/x64/Debug/Project1.tlog/CL.write.1.tlog
+Project1/Project1/x64/Debug/Project1.tlog/link.command.1.tlog
+Project1/Project1/x64/Debug/Project1.tlog/link.read.1.tlog
+Project1/Project1/x64/Debug/Project1.tlog/link.secondary.1.tlog
+Project1/Project1/x64/Debug/Project1.tlog/link.write.1.tlog
+Project1/Project1/x64/Debug/Project1.tlog/Project1.lastbuildstate
+Project1/Project1/x64/Debug/vc145.idb
