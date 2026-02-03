@@ -43,7 +43,23 @@ void ArbolBinario::inOrden(Nodo* nodo) {
 
 	}
 }
+//Crear el preorden La raiz se visita primero, luego el subárbol izquierdo y finalmente el subárbol derecho.
+void ArbolBinario::preOrden(Nodo* nodo) {
+	if (nodo != nullptr) {
+		cout << nodo->dato << " ";
+		preOrden(nodo->izquierdo);
+		preOrden(nodo->derecho);
+	}
+}
 
+//Postorden la raíz se visita al final, después de visitar ambos subárboles.
+void ArbolBinario::postOrden(Nodo* nodo) {
+	if (nodo != nullptr) {		
+		postOrden(nodo->izquierdo);
+		postOrden(nodo->derecho);
+		cout << nodo->dato << " ";
+	}
+}
 
 //Metodos publicos
 void ArbolBinario::insertar(int valor) {
@@ -59,9 +75,13 @@ void ArbolBinario::mostrarArbol() {
 void ArbolBinario::mostrarRecorridos() {
 	cout << "Recorrido en orden: ";
 	inOrden(raiz);
+	cout << "\nRecorrido en preOrden: ";
+	preOrden(raiz);
+	cout << "\nRecorrido en postOrden: ";
+	postOrden(raiz);
 	cout << endl;
 
-	//Crear el preorden La raiz se visita primero, luego el subárbol izquierdo y finalmente el subárbol derecho.
+	
 	// 
-	//Postorden la raíz se visita al final, después de visitar ambos subárboles.
+
 }
