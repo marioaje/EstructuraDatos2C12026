@@ -1,0 +1,49 @@
+#include <iostream>
+#include "ArbolBinario.h"
+
+using namespace std;
+//insertarNodo
+
+// Constructor
+ArbolBinario::ArbolBinario() {
+	raiz = nullptr;
+}
+//Es como acceder a las funciones de la interfaz, valida que exista en ambos lugar (::)
+Nodo* ArbolBinario::insertarNodo(Nodo* nodo, int valor) {
+	if (nodo == nullptr) {//Es un puntero nullo, no tiene valor en memoria
+		return new Nodo(valor);
+	}
+	//"->" esto es igual al punto que usamos en otros lenguajes
+	if (valor < nodo->dato) {
+		nodo->izquierdo = insertarNodo(nodo->izquierdo, valor);
+	} else {
+		nodo->derecho = insertarNodo(nodo->derecho, valor);
+	}
+	return nodo;
+}
+
+void ArbolBinario::mostrarArbol(Nodo* nodo, int nivel) {
+	if (nodo == nullptr) {
+		return;
+	}
+
+	mostrarArbol(nodo->derecho, nivel + 1);
+
+	cout << string(nivel * 4, ' ') << nodo->dato << endl;
+
+	mostrarArbol(nodo->izquierdo, nivel + 1);
+}
+
+
+
+
+
+//Metodos publicos
+void ArbolBinario::insertar(int valor) {
+	raiz = insertarNodo(raiz, valor);
+}
+
+void ArbolBinario::mostrarArbol() {
+	cout << "Representacion de la Estructura del Arbol Binario:" << endl;
+	mostrarArbol(raiz, 0);
+}

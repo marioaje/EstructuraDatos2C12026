@@ -12,31 +12,31 @@ struct Persona {
 //En la construcion o prototipo funciones
 void insertarPersonas(struct Persona* datos);
 void mostrarPersonas(struct Persona* datos);
-
-int main() {
-
-
-	struct Persona listaPersonas[MAX];	
-	int contador = 0;
-
-
-
-	insertarPersonas(&listaPersonas[contador]);
-
-
-	mostrarPersonas(&listaPersonas[contador]);
-	/*struct Persona datos =
-	{
-		1,
-		"Mario",
-		"Jimenez"
-	};*/
-	
-	//printf("ID: %d\n nombre: %s\n %s\n", datos.idPersona, datos.nombre, 
-	//	datos.apellido);
-	return 0;
-
-}
+//
+//int main() {
+//
+//
+//	struct Persona listaPersonas[MAX];	
+//	int contador = 0;
+//
+//
+//
+//	insertarPersonas(&listaPersonas[contador]);
+//
+//
+//	mostrarPersonas(&listaPersonas[contador]);
+//	/*struct Persona datos =
+//	{
+//		1,
+//		"Mario",
+//		"Jimenez"
+//	};*/
+//	
+//	//printf("ID: %d\n nombre: %s\n %s\n", datos.idPersona, datos.nombre, 
+//	//	datos.apellido);
+//	return 0;
+//
+//}
 
 
 void insertarPersonas(struct Persona* datos) {
