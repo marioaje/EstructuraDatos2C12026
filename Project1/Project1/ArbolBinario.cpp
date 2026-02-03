@@ -60,4 +60,8 @@ void ArbolBinario::mostrarRecorridos() {
 	cout << "Recorrido en orden: ";
 	inOrden(raiz);
 	cout << endl;
+
+	//Crear el preorden La raiz se visita primero, luego el subárbol izquierdo y finalmente el subárbol derecho.
+	// 
+	//Postorden la raíz se visita al final, después de visitar ambos subárboles.
 }
