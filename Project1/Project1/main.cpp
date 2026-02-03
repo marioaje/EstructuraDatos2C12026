@@ -13,6 +13,7 @@ int main() {
 	}
 
 	arbol.mostrarArbol();
+	arbol.mostrarRecorridos();
 
 	return 0;
 }

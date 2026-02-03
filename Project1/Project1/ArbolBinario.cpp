@@ -34,8 +34,15 @@ void ArbolBinario::mostrarArbol(Nodo* nodo, int nivel) {
 	mostrarArbol(nodo->izquierdo, nivel + 1);
 }
 
+//Funciones de recorrido
+void ArbolBinario::inOrden(Nodo* nodo) {
+	if (nodo != nullptr) {
+		inOrden(nodo->izquierdo);
+		cout << nodo->dato << " ";
+		inOrden(nodo->derecho);
 
-
+	}
+}
 
 
 //Metodos publicos
@@ -46,4 +53,11 @@ void ArbolBinario::insertar(int valor) {
 void ArbolBinario::mostrarArbol() {
 	cout << "Representacion de la Estructura del Arbol Binario:" << endl;
 	mostrarArbol(raiz, 0);
+}
+
+
+void ArbolBinario::mostrarRecorridos() {
+	cout << "Recorrido en orden: ";
+	inOrden(raiz);
+	cout << endl;
 }

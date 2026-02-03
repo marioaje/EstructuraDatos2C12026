@@ -10,7 +10,7 @@ class ArbolBinario {
 		// Función auxiliar para insertar un nodo
 		Nodo* insertarNodo(Nodo* nodo, int valor);
 		//// Función auxiliar para recorrer el árbol en orden
-		//void recorridoEnOrden(Nodo* nodo);
+		void inOrden(Nodo* nodo);
 		void mostrarArbol(Nodo* nodo, int nivel);//Funcion para mostrar los valores del arbol
 
 	public:
@@ -19,6 +19,7 @@ class ArbolBinario {
 	//	void recorridoEnOrden(); // Función pública para recorrer el árbol en orden
 		void mostrarArbol(); // Función pública para mostrar el árbol
 
+		void mostrarRecorridos(); // Función pública para mostrar los recorridos
 };
 
 
