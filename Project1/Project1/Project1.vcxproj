@@ -136,6 +136,7 @@
     <ClCompile Include="LAboratorio2.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mainplus.cpp" />
+    <ClCompile Include="mallocmemoryallocation.cpp" />
     <ClCompile Include="Nodoplus.h" />
   </ItemGroup>
   <ItemGroup>

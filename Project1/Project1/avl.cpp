@@ -162,24 +162,24 @@ public:
 
 };
 
-int main() {
-	AVL arbol;
-
-	arbol.insertar(10);
-	arbol.insertar(5);
-
-	arbol.insertar(15);
-	arbol.insertar(3);
-
-	arbol.insertar(7);
-	arbol.insertar(12);
-
-	arbol.insertar(18);
-	arbol.insertar(4);
-	arbol.mostrarInorden();
-
-	return 0;
-}
+//int main() {
+//	AVL arbol;
+//
+//	arbol.insertar(10);
+//	arbol.insertar(5);
+//
+//	arbol.insertar(15);
+//	arbol.insertar(3);
+//
+//	arbol.insertar(7);
+//	arbol.insertar(12);
+//
+//	arbol.insertar(18);
+//	arbol.insertar(4);
+//	arbol.mostrarInorden();
+//
+//	return 0;
+//}
 
 
 //Pendientes una interfaz, para seleccionar cuando si y no insertar, y mostrar los recorridos, y comparar con el arbol binario de busqueda tradicional.

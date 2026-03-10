@@ -68,3 +68,8 @@ Project1/.vs/Project1.slnx/FileContentIndex/48546027-4174-4245-99b9-5e7b678ebb70
 *.ipch
 *.db
 *.db-shm
+
+# Visual Studio
+.vs/
+# debug
+x64/

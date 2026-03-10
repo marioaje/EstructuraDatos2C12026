@@ -45,6 +45,9 @@
     <ClCompile Include="mainplus.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="mallocmemoryallocation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Nodo.h">
