@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="arbolb.cpp" />
     <ClCompile Include="ArbolBinario.cpp" />
+    <ClCompile Include="arbolrojonegro.cpp" />
     <ClCompile Include="avl.cpp" />
     <ClCompile Include="BST.h" />
     <ClCompile Include="BTS.cpp" />
