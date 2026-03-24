@@ -134,6 +134,7 @@
     <ClCompile Include="BST.h" />
     <ClCompile Include="BTS.cpp" />
     <ClCompile Include="Estructura.cpp" />
+    <ClCompile Include="hilosemaforo.cpp" />
     <ClCompile Include="LAboratorio2.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mainplus.cpp" />
