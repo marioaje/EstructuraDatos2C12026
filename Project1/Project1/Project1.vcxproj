@@ -134,12 +134,14 @@
     <ClCompile Include="BST.h" />
     <ClCompile Include="BTS.cpp" />
     <ClCompile Include="Estructura.cpp" />
+    <ClCompile Include="hashingclase.cpp" />
     <ClCompile Include="hilosemaforo.cpp" />
     <ClCompile Include="LAboratorio2.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mainplus.cpp" />
     <ClCompile Include="mallocmemoryallocation.cpp" />
     <ClCompile Include="Nodoplus.h" />
+    <ClCompile Include="otest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="arbolb.h" />

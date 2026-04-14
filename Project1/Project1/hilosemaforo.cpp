@@ -44,13 +44,13 @@ void Consumidor() {
 		cv.notify_one(); // Notificamos al productor
 	}
 }
-
-int main() {
-	thread productor(Productor);
-	thread consumidor(Consumidor);
-	productor.join();
-	consumidor.join();
-	return 0;
-}
+//
+//int main() {
+//	thread productor(Productor);
+//	thread consumidor(Consumidor);
+//	productor.join();
+//	consumidor.join();
+//	return 0;
+//}
 
 //Generarlos en dos hilos separados

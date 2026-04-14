@@ -54,6 +54,12 @@
     <ClCompile Include="hilosemaforo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="otest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hashingclase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Nodo.h">
